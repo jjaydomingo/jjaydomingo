@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> AJ Domingo | Favorites </title>
+<link rel="stylesheet" href="final.css">
+<style>
+body{
+	height: 950px;
+}
+.links{
+	color: black;
+}
+#name{
+	color: black;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-left: -20px;
+	background-color: slategrey;
+	text-align: center;
+	margin-right: -20px;
+	padding-right: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#polariod{
+	width: 250px;
+	height: 300px;
+	position: relative;
+	margin: auto;
+	margin-left: 590px;
+}
+.img{
+	border: 5px solid black;
+	border-bottom: 40px solid black;
+	outline: #000 solid 2px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: 2s;
+	margin-top: 25px;
+}
+#polariod:hover #image-1{
+	transform: rotate(-15deg) translate(-280px, 380px);
+}
+#polariod:hover #image-2{
+	transform: rotate(15deg) translate(310px);
+}
+#polariod:hover #image-3{
+	transform: rotate(-15deg) translate(-310px);
+}
+#polariod:hover #image-4{
+	transform: rotate(15deg) translate(280px, 380px);
+}
+</style>
+</head>
+<body> 
+	<div id="navigationbar">
+	 <a href="homepage.html" class="links"> Homepage </a> 
+		<a href="portfolio.html" class="links"> Portfolio </a> 
+		<a href="favorites.html" class="links"> Favorites </a> 
+		<a href="about.html" class="links"> About </a> 
+		<h2 id="name"> AJ Domingo </h2>
+		<a href="https://www.instagram.com/jjaydomingo/" id="insta"> 
+			<img src="images/blacklogo.png" id="logo" alt="logo"> 
+		</a>	
+</div> 
+<div id="polariod">
+	<img class="img" src="favorites/katelyn.jpg" id="image-1" alt="katelyn">
+	<img  class="img" src="favorites/gina.jpg" id="image-2" alt="gina">
+	<img class="img" src="favorites/cali.jpg" id="image-3" alt="cali">
+	<img class="img" src="favorites/michi.jpg" id="image-4" alt="michi">
+	<img class="img" src="favorites/rachel.jpg" id="image-5" alt="rachel">
+</div>
+<div id="footer">
+	COPYRIGHT 2023 AJ Domingo | @jjaydomingo
+</div>
+</body>
+</html>

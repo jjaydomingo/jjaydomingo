@@ -1,0 +1,38 @@
+@font-face{
+    font-family:  "font";
+    src:  url(fonts/font.otf);
+}
+body{
+    width: 1250px;
+}
+.links{
+    margin-right: 15px;
+    position: relative;
+    font-family: "font";
+    text-decoration: none;
+}
+.links:hover{
+    color:skyblue;
+}
+#navigationbar{
+    margin-top: 65px;
+    margin-left: 75px;
+    width: 100%;
+}
+#name{
+    text-align: center;
+    position: relative;
+    left: 31%;
+    right: 50%;
+    margin-top: -20px;
+    width: 500px;
+    font-size: 35px;
+    font-family: "font";
+}
+#logo{
+    width: 20px;
+    height: auto;
+    float: right;
+    margin-top: -55px;
+    position: relative;
+}
